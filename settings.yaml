@@ -1,0 +1,25 @@
+mysql:
+  host: 127.0.0.1
+  port: 3306
+  config: charset=utf8mb4&parseTime=True&loc=Local
+  db: nft
+  user: root
+  password: "123456"
+  max_idle_conns: 0
+  max_open_conns: 0
+  logLevel: ""
+logger:
+  level: info
+  prefix: '[nft]'
+  director: log
+  show_line: true
+  log_in_console: true
+system:
+  host: 0.0.0.0
+  port: 8081
+  env: release
+redis:
+  ip: 192.168.189.11
+  port: 6379
+  password: ""
+  pool_size: 100
