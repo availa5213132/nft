@@ -6,6 +6,7 @@ mysql:
   user: nft
   password: 123456
   logLevel: dev
+
 logger:
   level: info
   prefix: '[nft]'
@@ -17,7 +18,6 @@ system:
   port: 8081
   env: release
 redis:
-
   ip: 123.60.212.34
   port: 6379
   password: ""

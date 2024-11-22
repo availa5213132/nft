@@ -8,6 +8,7 @@ import (
 )
 
 func main() {
+
 	core.InitConf()                    //读取配置文件
 	global.Log = core.InitLogger()     //初始化日志
 	global.DB = core.InitGorm()        //连接数据库
