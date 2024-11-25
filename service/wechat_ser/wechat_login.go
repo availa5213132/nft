@@ -13,10 +13,15 @@ import (
 func GenerateJWT(user *models.UserModel) (string, error) {
 	// 生成 JwtPayLoad
 	payload := jwts.JwtPayLoad{
-		Username: user.UserName,  // 使用用户名
-		NickName: user.NickName,  // 使用昵称
-		Role:     int(user.Role), // 将 Role 转为 int 类型
-		UserID:   user.ID,        // 使用用户ID
+		Username: user.UserName, // 使用用户名
+		NickName: user.NickName, // 使用昵称
+		Role: func() int {
+			if user.RoleID != nil {
+				return *user.RoleID
+			}
+			return 0 // 默认角色值
+		}(),
+		UserID: user.ID, // 使用用户 ID
 	}
 
 	// 调用 jwts.GenToken 创建 token

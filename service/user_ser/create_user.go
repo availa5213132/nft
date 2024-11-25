@@ -30,11 +30,7 @@ func (UserService) CreateUser(userName, nickName, password string, role ctype.Ro
 		UserName: userName,
 		Password: hashPwd,
 		Email:    email,
-		Role:     role,
 		Avatar:   Avatar,
-		IP:       ip,
-		//Addr:       addr,
-		SignStatus: ctype.SignEmail,
 	}).Error
 	if err != nil {
 		return err

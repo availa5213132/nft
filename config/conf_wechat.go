@@ -11,6 +11,6 @@ func GetWechatConfig() *WechatConfig {
 	return &WechatConfig{
 		AppID:       "wx55b91f835d27d393",
 		AppSecret:   "79e5eb42d91cdaf04dfcd73f5705de16",
-		RedirectURI: " http://ic5if7.natappfree.cc/api/wechat/callback",
+		RedirectURI: "http://45i75j.natappfree.cc/api/wechat/callback",
 	}
 }
