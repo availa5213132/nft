@@ -5,7 +5,7 @@ import (
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
-	global "nft/server/gloabl"
+	global "nft/server/global"
 
 	"time"
 )

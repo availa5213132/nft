@@ -1,7 +1,7 @@
 package flags
 
 import (
-	global "nft/server/gloabl"
+	global "nft/server/global"
 	"nft/server/models"
 )
 

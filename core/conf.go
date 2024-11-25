@@ -6,7 +6,7 @@ import (
 	"io/ioutil"
 	"log"
 	"nft/server/config"
-	global "nft/server/gloabl"
+	global "nft/server/global"
 )
 
 // initConf 读取yaml文件的配置

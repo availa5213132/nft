@@ -1,17 +1,18 @@
 package main
 
 import (
+	"fmt"
 	"nft/server/core"
 	"nft/server/flags"
-	global "nft/server/gloabl"
+	"nft/server/global"
 	"nft/server/routers"
 )
 
 func main() {
-	core.InitConf()                //读取配置文件
-	global.Log = core.InitLogger() //初始化日志
-	global.DB = core.InitGorm()    //连接数据库
-	//global.Redis = core.ConnectRedis() //连接redis
+	core.InitConf()                    //读取配置文件
+	global.Log = core.InitLogger()     //初始化日志
+	global.DB = core.InitGorm()        //连接数据库
+	global.Redis = core.ConnectRedis() //连接redis
 	// 命令行参数绑定
 	option := flags.Parse()
 	if option.Run() {
@@ -23,4 +24,5 @@ func main() {
 	if err != nil {
 		global.Log.Fatalf(err.Error())
 	}
+	fmt.Println("-----------启动成功-----------")
 }

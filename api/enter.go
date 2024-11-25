@@ -5,7 +5,8 @@ import (
 )
 
 type ApiGroup struct {
-	UserApi user_api.UserApi
+	UserApi   user_api.UserApi
+	WeChatApi user_api.WeChatApi
 }
 
 var ApiGroupApp = new(ApiGroup)

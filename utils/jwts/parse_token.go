@@ -3,7 +3,7 @@ package jwts
 import (
 	"errors"
 	"github.com/dgrijalva/jwt-go/v4"
-	global "nft/server/gloabl"
+	global "nft/server/global"
 )
 
 // ParseToken 解析 token

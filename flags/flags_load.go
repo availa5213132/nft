@@ -2,7 +2,7 @@ package flags
 
 import (
 	"github.com/sirupsen/logrus"
-	global "nft/server/gloabl"
+	global "nft/server/global"
 	"os"
 	"strings"
 )

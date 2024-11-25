@@ -3,7 +3,7 @@ package redis_ser
 import (
 	"encoding/json"
 	"fmt"
-	global "nft/server/gloabl"
+	global "nft/server/global"
 	"time"
 )
 

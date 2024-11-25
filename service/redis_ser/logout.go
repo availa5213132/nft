@@ -1,7 +1,7 @@
 package redis_ser
 
 import (
-	global "nft/server/gloabl"
+	global "nft/server/global"
 	"nft/server/utils"
 	"time"
 )

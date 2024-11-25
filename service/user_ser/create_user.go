@@ -2,7 +2,7 @@ package user_ser
 
 import (
 	"errors"
-	global "nft/server/gloabl"
+	global "nft/server/global"
 	"nft/server/models"
 	"nft/server/models/ctype"
 	"nft/server/pwd"

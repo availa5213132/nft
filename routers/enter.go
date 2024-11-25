@@ -2,7 +2,7 @@ package routers
 
 import (
 	"github.com/gin-gonic/gin"
-	global "nft/server/gloabl"
+	"nft/server/global"
 )
 
 type RouterGroup struct {

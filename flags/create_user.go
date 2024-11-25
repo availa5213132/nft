@@ -2,7 +2,7 @@ package flags
 
 import (
 	"fmt"
-	global "nft/server/gloabl"
+	global "nft/server/global"
 	"nft/server/models/ctype"
 	"nft/server/service/user_ser"
 )

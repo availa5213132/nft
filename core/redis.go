@@ -4,7 +4,7 @@ import (
 	"context"
 	"github.com/go-redis/redis"
 	"github.com/sirupsen/logrus"
-	global "nft/server/gloabl"
+	global "nft/server/global"
 	"time"
 )
 

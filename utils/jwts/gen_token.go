@@ -2,7 +2,7 @@ package jwts
 
 import (
 	"github.com/dgrijalva/jwt-go/v4"
-	global "nft/server/gloabl"
+	global "nft/server/global"
 	"time"
 )
 

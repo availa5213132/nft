@@ -2,7 +2,7 @@ package core
 
 import (
 	"bytes"
-	global "nft/server/gloabl"
+	global "nft/server/global"
 
 	"fmt"
 	"github.com/sirupsen/logrus"

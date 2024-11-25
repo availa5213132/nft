@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"fmt"
 	"github.com/sirupsen/logrus"
-	global "nft/server/gloabl"
+	global "nft/server/global"
 	"os/exec"
 	"time"
 )
