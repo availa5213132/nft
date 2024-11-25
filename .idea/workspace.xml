@@ -5,33 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e34d0db9-ca04-42cc-a101-8198a5fd20d7" name="更改" comment="测试1">
-      <change afterPath="$PROJECT_DIR$/api/user_api/wechat_login.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/conf_wechat.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/user_ser/user_ser.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service/wechat_ser/wechat_login.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/wechat_utils.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/enter.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/enter.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/user_api/enter.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/user_api/enter.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/conf.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/conf.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/gorm.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/gorm.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/logrus.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/logrus.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/redis.go" beforeDir="false" afterPath="$PROJECT_DIR$/core/redis.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flags/create_user.go" beforeDir="false" afterPath="$PROJECT_DIR$/flags/create_user.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flags/flags_db.go" beforeDir="false" afterPath="$PROJECT_DIR$/flags/flags_db.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flags/flags_dump.go" beforeDir="false" afterPath="$PROJECT_DIR$/flags/flags_dump.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flags/flags_load.go" beforeDir="false" afterPath="$PROJECT_DIR$/flags/flags_load.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gloabl/global.go" beforeDir="false" afterPath="$PROJECT_DIR$/global/global.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routers/enter.go" beforeDir="false" afterPath="$PROJECT_DIR$/routers/enter.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routers/user_router.go" beforeDir="false" afterPath="$PROJECT_DIR$/routers/user_router.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/redis_ser/count.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/redis_ser/count.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/redis_ser/logout.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/redis_ser/logout.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/redis_ser/news.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/redis_ser/news.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/user_ser/create_user.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/user_ser/create_user.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/jwts/gen_token.go" beforeDir="false" afterPath="$PROJECT_DIR$/utils/jwts/gen_token.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/jwts/parse_token.go" beforeDir="false" afterPath="$PROJECT_DIR$/utils/jwts/parse_token.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/settings.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +34,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Go 构建.go build main.go.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
@@ -87,7 +62,16 @@
       <recent name="D:\github\nft\api\user_api" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Go 构建.go build main.go">
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="NFT" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <package value="nft/server" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build nft/server" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="NFT" />
       <working_directory value="$PROJECT_DIR$" />
@@ -99,6 +83,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go 构建.go build nft/server" />
+        <item itemvalue="Go 构建.go build main.go" />
+        <item itemvalue="Go 构建.go build main.go" />
         <item itemvalue="Go 构建.go build nft/server" />
       </list>
     </recent_temporary>
