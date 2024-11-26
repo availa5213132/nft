@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e34d0db9-ca04-42cc-a101-8198a5fd20d7" name="更改" comment="测试1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/user_api/wechat_login.go" beforeDir="false" afterPath="$PROJECT_DIR$/api/user_api/wechat_login.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/conf_wechat.go" beforeDir="false" afterPath="$PROJECT_DIR$/config/conf_wechat.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/user_model.go" beforeDir="false" afterPath="$PROJECT_DIR$/models/user_model.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/wechat_ser/wechat_login.go" beforeDir="false" afterPath="$PROJECT_DIR$/service/wechat_ser/wechat_login.go" afterDir="false" />
-    </list>
+    <list default="true" id="e34d0db9-ca04-42cc-a101-8198a5fd20d7" name="更改" comment="Merge branch 'branch1'&#10;&#10;# Conflicts:&#10;#&#9;config/conf_mysql.go&#10;#&#9;main.go" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -123,7 +117,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="测试1" />
-    <option name="LAST_COMMIT_MESSAGE" value="测试1" />
+    <MESSAGE value="Merge branch 'branch1'&#10;&#10;# Conflicts:&#10;#&#9;config/conf_mysql.go&#10;#&#9;main.go" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'branch1'&#10;&#10;# Conflicts:&#10;#&#9;config/conf_mysql.go&#10;#&#9;main.go" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
